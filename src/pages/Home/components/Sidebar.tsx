@@ -145,7 +145,7 @@ export default function Sidebar(props: Props) {
         {cities.map((text: any) => (
           <ListItem key={text[0]} disablePadding>
             {/* Change city */}
-            <ListItemButton onClick={() => setCity((prew) => (prew = text[0]))}>
+            <ListItemButton onClick={() => setCity((prew) => (prew = text[1]))}>
               <ListItemIcon>
                 {/* City icons */}
                 <LocationCityIcon />
@@ -159,7 +159,7 @@ export default function Sidebar(props: Props) {
     </div>
   );
 
-  const citiesSearch = cities.map((city: any) => city[0])
+  const citiesSearch = cities.map((city: any) => city[1])
 
   const container =
     window !== undefined ? () => window().document.body : undefined;
