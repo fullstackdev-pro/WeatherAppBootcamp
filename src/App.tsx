@@ -1,25 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import Home from "./pages/Home/components/Home";
+import Auth from "./pages/Auth/Auth";
+import { useEffect, useState } from "react";
+import NotFound from "./pages/NotFound/NotFound";
 
 function App() {
+  const [check, setCheck] = useState(false);
+  const isAuth = localStorage.getItem("weatherAppBootcamp");
+  useEffect(() => {}, [isAuth]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={isAuth || check ? <Home /> : <Navigate to="/auth" />}
+        />
+        <Route path="/auth" element={<Auth setCheck={setCheck} />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
