@@ -26,7 +26,7 @@ interface Props {
 export default function Sidebar(props: Props) {
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
-  const [city, setCity] = React.useState<string>("Toshkent");
+  const [city, setCity] = React.useState<string>("Tashkent");
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
