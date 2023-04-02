@@ -35,7 +35,7 @@ export default function Sidebar(props: Props) {
       "Toshkent",
       "Tashkent",
       {
-        city: "Toshkent",
+        city: "Tashkent",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Humo_Arena.jpg/290px-Humo_Arena.jpg",
       },
     ],
@@ -43,7 +43,7 @@ export default function Sidebar(props: Props) {
       "Sirdaryo",
       "Urgench",
       {
-        city: "Sirdaryo",
+        city: "Urgench",
         url: "https://uzbek-travel.com/images/uz/Cities/Urgench/13319676444_b0f57bd296_o.jpg",
       },
     ],
@@ -51,7 +51,7 @@ export default function Sidebar(props: Props) {
       "Jizzax",
       "Jizzakh",
       {
-        city: "Jizzax",
+        city: "Jizzakh",
         url: "https://upload.wikimedia.org/wikipedia/commons/b/ba/Jizzaxfountain.jpg",
       },
     ],
@@ -59,7 +59,7 @@ export default function Sidebar(props: Props) {
       "Samarqand",
       "Samarkand",
       {
-        city: "Samarqand",
+        city: "Samarkand",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/RegistanSquare_Samarkand.jpg/280px-RegistanSquare_Samarkand.jpg",
       },
     ],
@@ -67,7 +67,7 @@ export default function Sidebar(props: Props) {
       "Qashkadaryo",
       "Qarshi",
       {
-        city: "Qashkadaryo",
+        city: "Qarshi",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kok-Gumbaz_mosque_in_Qarshi%2C_front_view.jpg/1024px-Kok-Gumbaz_mosque_in_Qarshi%2C_front_view.jpg",
       },
     ],
@@ -75,7 +75,7 @@ export default function Sidebar(props: Props) {
       "Surxandaryo",
       "Termez",
       {
-        city: "Surxandaryo",
+        city: "Termez",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Termiz_ArchaeNuseum_20141023.jpg/800px-Termiz_ArchaeNuseum_20141023.jpg",
       },
     ],
@@ -83,7 +83,7 @@ export default function Sidebar(props: Props) {
       "Farg'ona",
       "Fergana",
       {
-        city: "Farg'ona",
+        city: "Fergana",
         url: "https://upload.wikimedia.org/wikipedia/commons/2/2b/%D0%A4%D0%B5%D1%80%D0%B3%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B5_%D0%92%D0%BE%D1%80%D0%BE%D1%82%D0%B0.jpg",
       },
     ],
@@ -99,7 +99,7 @@ export default function Sidebar(props: Props) {
       "Andijon",
       "Andijan",
       {
-        city: "Andijon",
+        city: "Andijan",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Navoi_Square_%28Formerly_Bobur_Square%29_-_Where_2005_Massacre_Took_Place_-_Andijon_-_Uzbekistan_%287544000842%29.jpg/800px-Navoi_Square_%28Formerly_Bobur_Square%29_-_Where_2005_Massacre_Took_Place_-_Andijon_-_Uzbekistan_%287544000842%29.jpg",
       },
     ],
@@ -107,7 +107,7 @@ export default function Sidebar(props: Props) {
       "Navoiy",
       "Navoi",
       {
-        city: "Navoiy",
+        city: "Navoi",
         url: "https://upload.wikimedia.org/wikipedia/commons/9/93/Photo_2022-03-07_16-41-17NGGI4.jpg",
       },
     ],
@@ -115,7 +115,7 @@ export default function Sidebar(props: Props) {
       "Xorazm",
       "Urgench",
       {
-        city: "Xorazm",
+        city: "Urgench",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Shavat_kanal.jpg/800px-Shavat_kanal.jpg",
       },
     ],
@@ -123,7 +123,7 @@ export default function Sidebar(props: Props) {
       "Buxoro",
       "Bukhara",
       {
-        city: "Buxoro",
+        city: "Bukhara",
         url: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2012_Bukhara_7515821196.jpg/800px-2012_Bukhara_7515821196.jpg",
       },
     ],
@@ -131,7 +131,7 @@ export default function Sidebar(props: Props) {
       "Qoraqalpog'iston",
       "Karakalpakstan",
       {
-        city: "Qoraqalpog'iston",
+        city: "Karakalpakstan",
         url: "https://advice.uz/uploads/news/289529858c42c56e255a31cd0c52a458.jpg",
       },
     ],
